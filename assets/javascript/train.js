@@ -1,13 +1,14 @@
-var config = {
-  apiKey: "AIzaSyBf9bARdmnzSAH20NnxmOe6wfEJjxfRSaI",
-  authDomain: "spaceghost-coast-to-coast.firebaseapp.com",
-  databaseURL: "https://spaceghost-coast-to-coast.firebaseio.com",
-  projectId: "spaceghost-coast-to-coast",
-  storageBucket: "spaceghost-coast-to-coast.appspot.com",
-  messagingSenderId: "782988371532"
+var firebaseConfig = {
+  apiKey: "AIzaSyCwYamR12EG0ouFM7FdbXjA-LEV3_m7qaU",
+  authDomain: "train-activity-9380b.firebaseapp.com",
+  databaseURL: "https://train-activity-9380b.firebaseio.com",
+  projectId: "train-activity-9380b",
+  storageBucket: "train-activity-9380b.appspot.com",
+  messagingSenderId: "156413595898",
+  appId: "1:156413595898:web:2db2b53a784da9f66e3943"
 };
-
-firebase.initializeApp(config);
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 var trainData = firebase.database();
 
